@@ -10,7 +10,6 @@ public class MotoristaController {
 
     private MotoristaService service;
 
-    @Autowired //TODO: essa anotação "@Autowired" pode ser movida direto para o atributo da service
     public MotoristaController(MotoristaService service) {
         this.service = service;
     }

@@ -3,8 +3,10 @@ package com.example.demo.service;
 import com.example.demo.Repository.MotoristaRepository;
 import com.example.demo.domain.Motorista;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-public class MotoristaService { //TODO: faltou uma anotação de "@Service"
+@Service
+public class MotoristaService {
 
     @Autowired
     MotoristaRepository repository;

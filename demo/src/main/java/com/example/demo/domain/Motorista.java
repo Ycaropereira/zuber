@@ -17,13 +17,9 @@ public class Motorista {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    //TODO:
-    // Mudar para 'nome' porque ao chamar o objeto ficaria motorista.nomeMotorista
-    // mudar o campo para um tipo que faça sentido, por exemplo se ele tem um nome como 'André Sousa'
-    // o tipo do campo ideal seria String
-    private long nomeMotorista;
+    private String nome;
 
-    private long veiculo;
+    private String veiculo;
 
-    private long cnh;
+    private Long cnh;
 }
